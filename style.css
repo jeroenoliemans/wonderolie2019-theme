@@ -949,7 +949,7 @@ a:active {
 
 
 .post-navigation {
-	border-top: 4px solid #1a1a1a;
+	border-top: 4px solid var(--bg-light);
 	border-bottom: 4px solid #1a1a1a;
 	clear: both;
 	font-family: 'Josefin Sans', sans-serif;
@@ -992,7 +992,7 @@ a:active {
 }
 
 .post-navigation div + div {
-	border-top: 4px solid #1a1a1a;
+	border-top: 4px solid var(--bg-light);
 }
 
 .pagination {
@@ -1601,7 +1601,7 @@ blockquote:after,
 .entry-content,
 .entry-footer,
 .page-content {
-	margin: 3%
+	margin: 0 3% 3% 3%;
 }
 
 .entry-title {
@@ -1959,7 +1959,7 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .page-header {
-	border-top: 4px solid #1a1a1a;
+	border-top: 4px solid var(--bg-light);
 	margin: 0 7.6923% 3.5em;
 	padding-top: 1.75em;
 }
@@ -2100,7 +2100,7 @@ body.search-no-results .page-header {
 
 .comments-title,
 .comment-reply-title {
-	border-top: 4px solid #1a1a1a;
+	border-top: 4px solid var(--bg-light);
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 23px;
 	font-size: 1.4375rem;
