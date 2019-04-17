@@ -1601,7 +1601,7 @@ blockquote:after,
 .entry-content,
 .entry-footer,
 .page-content {
-	margin: 0 3% 3% 3%;
+	margin: 3% 3% 3% 3%;
 }
 
 .entry-title {
@@ -2323,6 +2323,7 @@ body.search-no-results .page-header {
 	margin: 3%;
 	background-color: #fff;
 	box-shadow: 2px 2px 40px #111;
+	text-align: left;
 }
 
 
@@ -2754,6 +2755,7 @@ p > video {
 
 	.site-main > article {
 		margin-bottom: 5.25em;
+
 	}
 
 	.entry-header,
@@ -2767,6 +2769,7 @@ p > video {
 	.page-header,
 	.page-content,
 	.content-bottom-widgets {
+		margin-top: 0;
 		margin-right: 23.0769%;
 	}
 
