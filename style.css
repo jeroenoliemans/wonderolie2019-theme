@@ -3604,6 +3604,7 @@ p > video {
 }
 
 .PortFolioFooterLinkText {
+	font-family: sans-serif;
 	display: none;
 }
 
